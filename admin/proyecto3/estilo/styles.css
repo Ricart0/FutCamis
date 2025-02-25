@@ -1,0 +1,54 @@
+/* estilo/styles.css */
+
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-brand {
+    margin-left: 20px;
+}
+
+/* Estilos para el contenido principal */
+.container {
+    margin-top: 40px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Estilos para justificar el texto */
+.text-justify {
+    text-align: justify;
+}
+.imgprod{
+    width: 200px;
+    height: 200px;
+
+}
+.carrito-img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+    box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}

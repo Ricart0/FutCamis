@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>tienda.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet.html</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>tienda.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegistroServlet</servlet-name>
+    <servlet-class>tienda.RegistroServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegistroServlet</servlet-name>
+    <url-pattern>/RegistroServlet.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RecogerCarritoServlet</servlet-name>
+    <servlet-class>tienda.RecogerCarritoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RecogerCarritoServlet</servlet-name>
+    <url-pattern>/RecogerCarritoServlet.html</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>ActualizarDatosServlet</servlet-name>
+    <servlet-class>tienda.ActualizarDatosServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ActualizarDatosServlet</servlet-name>
+    <url-pattern>/ActualizarDatosServlet.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TramitacionServlet</servlet-name>
+    <servlet-class>tienda.TramitacionServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>TramitacionServlet</servlet-name>
+    <url-pattern>/TramitacionServlet.html</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>CancelarPedidoServlet</servlet-name>
+    <servlet-class>tienda.CancelarPedidoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CancelarPedidoServlet</servlet-name>
+    <url-pattern>/CancelarPedidoServlet.html</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+
